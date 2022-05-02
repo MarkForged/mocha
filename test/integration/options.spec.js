@@ -3,8 +3,8 @@
 var path = require('path');
 var loadOptions = require('../../lib/cli/options').loadOptions;
 
-describe('options', function() {
-  it('Should support extended options', function() {
+describe('options', function () {
+  it('Should support extended options', function () {
     var configDir = path.join(
       __dirname,
       'fixtures',
